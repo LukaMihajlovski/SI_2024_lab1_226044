@@ -1,0 +1,35 @@
+commit 2bfc0a7b6061829bdeb6260fa7da8eb4a3f700ab
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 22:06:22 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit f138cbb249e0830d43c8946281751b9d7f9405a3
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 22:02:12 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit f76277ba6acbd49a56bf147cca1a4244d2d261fe
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 22:04:21 2024 +0200
+
+    Call method filerOddLenghtStrings
+
+commit 76d8678d4cf251ea703ca14004b5ace018cb6b12
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 21:59:34 2024 +0200
+
+    Fix wrong conditions in filerOddLenghtStrings
+
+commit 4346397e10b1f6ca9f0b3eaa4ea21c2c1df6bda1
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 21:49:52 2024 +0200
+
+    Add starter code
+
+commit 06aea5f8e20998722af6e4cf683ffe99b46fa9bf
+Author: LukaMihajlovski <luka.mihajlovski@students.finki.ukim.mk>
+Date:   Sun Apr 14 21:29:06 2024 +0200
+
+    Initial commit

@@ -1,0 +1,108 @@
+
+ cd /Downloads 
+ mkdir SI_2024_lab1_226044
+ cd SI_2024_lab1_226044
+ git init
+ git config user.name LukaMihajlovski
+ git config user.email luka.mihajlovski@students.finki.ukim.mk
+
+
+ git remote add origin https://github.com/LukaMihajlovski/SI_2024_lab1_226044.git
+
+
+ nano README.md
+ git add README.md
+ git commit -m “Initial commit”
+
+
+ nano SILab1Main.java
+ nano SILab1_1.java
+ nano SILab1_2.java
+ git add --all
+ git commit -m “Add starter code”
+
+ 
+ git push origin master
+
+
+ git branch bug1
+ git branch bug2
+
+
+ git checkout bug1
+
+
+ nano SILab1_1.java
+ git add SILab1_1.java
+ git commit -m “Fix wrong condition in filterOddLengthStrings”
+
+
+ git checkout bug2
+
+
+ nano SILab1_2.java
+ git add --all 
+ git commit -m “Fix wrong condition in makeBigStringFrom”
+
+
+ git checkout bug1
+
+
+ nano SILab1Main.java
+ git add SILab1Main.java
+ git commit -m “Call method filterOddLengthStrings”
+
+
+ git checkout bug2
+
+
+ nano SILab1Main.java
+ git add SILab1Main.java
+ git commit -m “Call method makeBigStringFrom in main class”
+
+
+ git push origin bug1
+ git push origin bug2
+
+
+ git checkout master
+
+
+ git merge bug1
+
+
+ git push --all origin
+
+
+ git checkout bug2
+
+
+ git rebase master
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+ nano SILab1Main.java
+
+ git SILab1Main.java	
+ 
+ git rebase –continue
+
+
+ git checkout master
+
+
+ git merge bug2
+
+ git push --all origin
+
+
+ git push --force origin bug2
+
+
+ git log > logs.txt
+nano 226044.txt
+ git add --all
+ git commit -m “Final commit”
+
+
